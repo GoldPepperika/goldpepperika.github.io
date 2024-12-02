@@ -1,0 +1,154 @@
+/* Style Sheet for GoldPepperika's Website */
+
+/* HTML and Body */
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+/* End HTML and Body */
+
+/* Header */
+header {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+
+header ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header li {
+    margin-right: 15px;
+}
+/* End Header */
+
+/* Main */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    flex: 48%;
+}
+
+.left h1 {
+    border-bottom-style: dashed;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.right {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    flex: 50%;
+}
+
+.right h1 {
+    border-bottom-style: dashed;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.thestuff section {
+    border-bottom-style: dashed;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.thestuff h1 {
+    border-bottom-style: none !important;
+}
+
+.thestuff p {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.thestuff section img {
+    width: 270px;
+    height: 270px;
+    max-width: 100%;
+}
+
+.fullpageclassthing {
+    flex: 100%;
+}
+
+.fullpageclassthing section {
+    padding: 5px;
+    border-bottom-style: dashed;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+
+.fullpageclassthing h1 {
+    margin-top: 15px;
+}
+
+.fullpageclassthing img {
+    width: 480px;
+    height: 270px;
+    max-width: 100%;
+}
+
+.fullpageclassthinglite {
+    flex: 100%;
+}
+/* End Main */
+
+/* Footer */
+footer {
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+
+footer p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+/* End Footer */
+
+/* Links */
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(125, 125, 125);
+}
+/* End Links */
