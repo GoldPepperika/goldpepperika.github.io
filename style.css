@@ -127,6 +127,12 @@ main {
 .fullpageclassthinglite {
     flex: 100%;
 }
+
+.image {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+}
 /* End Main */
 
 /* Footer */
